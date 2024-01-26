@@ -8,3 +8,15 @@ function sendMail() {
 
   emailjs.send().then(alert("Message Submitted, Thank you!"))
 }
+
+// Side Menu Functionality 
+
+var navmenu = document.getElementById("navmenu");
+
+      function openmenu() {
+        navmenu.style.right = "0";
+      }
+
+      function closemenu() {
+        navmenu.style.right = "-200px";
+      }
