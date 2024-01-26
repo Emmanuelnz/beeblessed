@@ -1,0 +1,414 @@
+/* Colors used: 
+  background: #D9D9D9
+  text: #000
+  accent: #F8C134
+*/
+:root {
+  --background: #D9D9D9;
+  --text: #1E1E1E;
+  --accent: #F8C134;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Great Vibes', cursive;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 95px;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/bbflower.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 10px 10%;
+}
+
+/* ----------------------- Page sections ----------------------- */
+.section {
+  padding-top: 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 75px;
+  padding-right: 15px;
+}
+
+.section p {
+  font-size: 25px;
+}
+
+.sub-sections {
+  font-size: 50px;
+  border: solid;
+  border-width: 2px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+/* ----------------------- NAV BAR ----------------------- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--text);
+  padding-top: 25px;
+  padding-bottom: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+
+nav ul li { 
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px; 
+}
+
+nav ul li a {
+  color: var(--background);
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav ul li a:hover {
+ color: var(--accent);
+ border: var(--accent);
+ border-width: 3px;
+ border-style: solid;
+ border-radius: 10%;
+ border-left: 10px;
+ border-right: 10px;
+ padding-top: 5px;
+ padding-bottom: 2px;
+} 
+
+/* Bee blessed logo  */
+.logo {
+  font-size: 85px;
+  color: var(--background);
+}
+
+.logo:hover {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.logo a{
+  text-decoration: none;
+  color: var(--background);
+}
+
+.logo a:hover {
+  color: var(--accent);
+}
+
+/* ----------------------- Products ----------------------- */ 
+
+.product-card {
+  border-radius: 10px;
+}
+
+.product-card span{
+  font-size: 35px;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.product-card img {
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.product-list div {
+  background: var(--text);
+  color: var(--background);
+  max-width: 375px;
+  margin-bottom: 25px;
+  padding-bottom: 5px;
+}
+
+.product-list img {
+  width: 375px;
+  height: 440px;
+}
+
+.product-list p {
+  padding: 20px 20px;
+  font-size: 25px;
+}
+
+/* products add to cart button  */
+.product-button {
+  text-align: center;
+}
+
+.product-button button {
+  font-size: 20px;
+  width: 45%;
+  background: var(--accent);
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  padding-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* ----------------------- Services ----------------------- */
+.services-wrapper {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px; 
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column span {
+  font-size: 35px;
+}
+
+.services-column p {
+  margin-top: 20px;
+}
+
+.map-column p {
+  font-size: 30px;
+}
+
+/* ----------------------- Our Story ----------------------- */
+#our-story .section{
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+#our-story .container p{
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Photo Gallery */
+
+.photo-gallery-title {
+  font-size: 50px;
+  margin-top: 10%;
+  margin-bottom: 35px;
+  margin-left: 27%;
+  margin-right: 27%;
+  border: solid;
+  border-width: 2px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.photo-gallery-text {
+  font-size: 60px;
+}
+
+.photo-gallery {
+  columns: 15rem 4;
+  gap: 7px;
+}
+
+.photo-gallery img {
+  width: 100%;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.01);
+}
+
+.photo-gallery-button {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.photo-gallery-button button {
+  background: var(--text);
+  color: var(--background);
+  font-size: 25px;
+  padding: 15px 70px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+/* ----------------------- Contact ----------------------- */
+#contact {
+  background: var(--text);
+}
+
+.contact-wrapper {
+  margin: 15px;
+}
+
+.contact-wrapper span {
+  font-size: 55px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/* message form  */
+.message-column {
+  color: var(--background);
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+form input, form textarea {
+  width: 100%;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: var(--background);
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+}
+
+
+.message-buttons button {
+  padding: 15px 60px;
+  font-size: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: var(--accent);
+  border-width: 0;
+  width: 100%;
+}
+
+.message-buttons button a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.message-buttons {
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+
+/* newsletter */
+.newsletter-column {
+  color: var(--background);
+  font-size: 30px;
+  text-align: center;
+}
+
+.newsletter-input {
+  width: 70%;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: var(--background);
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.newsletter-button {
+  padding: 10px 45px;
+  font-size: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: var(--accent);
+  border-width: 0;
+}
+
+/* contact footer */
+.contact-footer {
+  color: var(--background);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+  border: solid 2px;
+  border-color: var(--background);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.contact-footer2 {
+  color: var(--background);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
