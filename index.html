@@ -1,180 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/8ed4f7edda.js" crossorigin="anonymous"></script>
-    <!-- Title -->
-    <title>Bee Blessed</title>
-  </head>
-  <body>
-    <!-- Header/Navbar  -->
-    <div id="header">
-      <nav>
-        <p class="logo"><a href="#header">Bee Blessed</a></p>
-        <ul id="navmenu">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#our-story">Our Story</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <!-- <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> -->
-        </ul>
-        <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
-      </nav>
-    </div>
 
-    <!----------- PRODUCTS ----------->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- website tab icon -->
+  <link rel="icon" type="image/png" href="img/sunflowerfavicon-32x32.png" sizes="32x32"/>
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/8ed4f7edda.js" crossorigin="anonymous"></script>
+  <!-- Title -->
+  <title>Bee Blessed</title>
+</head>
+<!-- Navigation Bar -->
+<nav>
+  <h1 class="logo"><a href="#header">Bee Blessed</a></h1>
+    <ul id="navmenu">
+      <li><a href="#header">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#our-story">Our Story</a></li>
+      <li><a href="#photo-gallery">Photo Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      </div>
+    </div>
+    <!-- ------------------ P R O D U C T S ------------------ -->
+    
     <div id="products">
       <div class="container">
-        <div class="section"><p><span class="section-title">Products</span> All Natural & Delicious Honey</p></div>
-        <div class="product-list">
+        <div>
+          <h1 class="section-title">Products</h1>
+        </div>
 
-          <div class="product-card">
-            <img src="img/honey jar.webp" alt="Jar of Honey">
-            <p><span>12oz Jar of Honey</span></p>
-            <p><span>$15.00</span></p>
-            <p>12oz Jar of honey. From the bees straight to the jar. No added sugar or additives. Pure unfiltered honey. Just the honey, no comb included.</p>
-            <p><span>Notice:</span> Limited quantities and seasonal! Please contact for availability. Thank you!</p>
-            <div class="product-button"><button><a href="#contact">Send Message</a></button><button><a href="tel:1234567890">Click to Call</a></button></div>
+        <div class="profile">
+
+          <!-- 12oz Jar of Honey -->
+          <div class="profile-card">
+
+            <!-- Product Image -->
+            <div class="img-box">
+              <img src="img/honey jar.webp" alt="">
+            </div>
+
+            <!-- Price & Title -->
+            <div class="info">
+              <h1>12oz Jar of Honey</h1>
+              <p>$15.00</p>
+            </div>
+
+            <!-- Description -->
+            <div class="product-description">
+              <p>12oz Jar of honey. From the bees straight to the jar. No added sugar or additives. Pure unfiltered honey without the comb</p> <br>
+              <p>Notice: Limited quantities and seasonal! Please contact for availability. Thank you!</p>
+            </div>
+
+            <!-- Email and Phone Buttons -->
+            <div class="buttons">
+              <!-- Email -->
+              <a href="mailto:conan@beeblessedco.com"><button>Email</button></a>
+              <!-- Phone -->
+              <a href="tel:574-221-1885"><button>Click to call</button></a>
+            </div>
+
           </div>
 
-          <div class="product-card">
-            <img src="img/honey2.jpg" alt="Jar of Honey with comb">
-            <h2></h2>
-            <p><span>10oz Jar of Honey</span></p>
-            <p><span>$10.00</span></p>
-            <p>10oz Jar of honey. From the bees straight to the jar. No added sugar or additives. Pure unfiltered honey with the comb included.</p>
-            <p><span>Notice:</span> Limited quantities and seasonal! Please contact for availability. Thank you!</p>
-            <div class="product-button"><button><a href="#contact">Send Message</a></button><button><a href="tel:1234567890">Click to Call</a></button></div>
+          <!-- 10oz Jar of Honey -->
+          <div class="profile-card">
+            <div>
+              <img src="img/honey2.jpg" alt="">
+            </div>
+
+             <!-- Price & Title -->
+            <div class="info">
+              <h1>10oz Jar of Honey</h1>
+              <p>$10.00</p>
+            </div>
+
+            <!-- Description -->
+            <div class="product-description">
+              <p>10oz Jar of honey. From the bees straight to the jar. No added sugar or additives. Pure unfiltered honey with the comb included.</p> <br>
+              <p>Notice: Limited quantities and seasonal! Please contact for availability. Thank you!</p>
+            </div>
+
+            <!-- Email and Phone Buttons -->
+            <div class="buttons">
+              <!-- Email -->
+              <a href="mailto:conan@beeblessedco.com"><button>Email</button></a>
+              <!-- Phone -->
+              <a href="tel:574-221-1885"><button>Click to call</button></a>
+            </div>
+
           </div>
 
-          <div class="product-card">
-            <img src="img/nucs.webp" alt="Bee Nuc">
-            <p><span>5 Frame Bee Nuc</span></p>
-            <p><span>$200</span></p>
-            <p>Bee Nucs, made and manufacured in house. Can be purchased by themselves or with a queen bee included. Contact for more details!</p>
-            <p><span>Notice:</span> Limited quantities and seasonal! Please contact for availability. Thank you!</p>
-            <div class="product-button"><button><a href="#contact">Send Message</a></button><button><a href="tel:1234567890">Click to Call</a></button></div>
+          <!-- 5 Frame Bee Nuc -->
+          <div class="profile-card">
+            <div>
+              <img src="img/nucs.webp" alt="">
+            </div>
+
+             <!-- Price & Title -->
+            <div class="info">
+              <h1>5 Frame Bee Nuc</h1>
+              <p>$200.00</p>
+            </div>
+
+            <!-- Description -->
+            <div class="product-description">
+              <p>Bee Nucs, made and manufacured in house. Can be purchased by themselves or with a queen bee included. Contact for more details!</p> <br>
+              <p>Notice: Limited quantities and seasonal! Please contact for availability. Thank you!</p>
+            </div>
+
+            <!-- Email and Phone Buttons -->
+            <div class="buttons">
+              <!-- Email -->
+              <a href="mailto:conan@beeblessedco.com"><button>Email</button></a>
+              <!-- Phone -->
+              <a href="tel:574-221-1885"><button>Click to call</button></a>
+            </div>
+
           </div>
 
-          <div class="product-card">
-            <img src="img/bees.webp" alt="Hives and Queen Bees">
-            <p><span>Queen Bee</span></p>
-            <p><span>$35</span></p>
-            <p>Purchase a Queen Bee. Made and cared for in house along with our natural honey. Contact for more details, only available after april. </p>
-            <p><span>Notice:</span> Limited quantities and seasonal! Please contact for availability. Thank you!</p>
-            <div class="product-button"><button><a href="#contact">Send Message</a></button><button><a href="tel:1234567890">Click to Call</a></button></div>
+          <!-- Queen Bees -->
+          <div class="profile-card">
+            <div>
+              <img src="img/bees.webp" alt="">
+            </div>
+
+             <!-- Price & Title -->
+            <div class="info">
+              <h1>Queen Bee</h1>
+              <p>$35.00</p>
+            </div>
+
+            <!-- Description -->
+            <div class="product-description">
+              <p>Purchase a Queen Bee. Made and cared for in house along with our natural honey. Contact for more details, only available after april.</p> <br>
+              <p>Notice: Limited quantities and seasonal! Please contact for availability. Thank you!</p>
+            </div>
+
+            <!-- Email and Phone Buttons -->
+            <div class="buttons">
+              <!-- Email -->
+              <a href="mailto:conan@beeblessedco.com"><button>Email</button></a>
+              <!-- Phone -->
+              <a href="tel:574-221-1885"><button>Click to call</button></a>
+            </div>
+
           </div>
 
         </div>
+
       </div>
     </div>
 
-    <!----------- Services ----------->
-    <div id="services">
-      <div class="container">
-        <div class="section"><p><span class="section-title">Services & Locations</span> Improving The World One Bee at a Time</p></div>
-        <div class='services-wrapper'>
-          <div class='row'>
-            <div class='column'>
-              <div class='map-column'>
-                <div><p>Address: 4653 N 375 E Warsaw, IN 46582</p></div>
-                <!-- google map  -->
-                <div class="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.282008501852!2d-85.7736729!3d41.3027283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88169b49c643b963%3A0x5957fa1e75cc3e2c!2s4653%20N%20375%20E%2C%20Warsaw%2C%20IN%2046582!5e0!3m2!1sen!2sus!4v1705982031302!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-              </div>
-            </div>
-            <div class='column'>
-              <div class='services-column'>
-                <div class="sub-sections"><p>Bee Handling & Removal</p></div>
-                <p><span>Got bees you need removed? Reach out or visit and we can safely remove the bees from your premises. Simply provide us with an address and we'll handle the rest.</span></p>
-                <div class="sub-sections"><p>Business Hours</p></div> 
-                <p><span>Monday - Friday | 9am to 5pm <br> Saturday - Sunday | Closed</span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
+    <!-- ------------------ S E R V I C E S ------------------ -->
 
-    <!----------- Our Story ----------->
+    <div id="about"> 
+      <div id="services" class="container">
+        <h1 class="section-title">Bee Blessed Services</h1>
+        <div class="row">
+
+          <!-- Image Column -->
+          <div class="about-col-1">
+            <img src="img/sunflower plant.webp" alt="">
+          </div>
+          <!-- Text Column  -->
+          <div class="about-col-2">
+              <h1 class="section-title">Bee Handeling & Removal</h1>
+              <p>Got bees you need removed? Reach out or visit and we can safely remove the bees from your premises. Simply provide us with an address and we'll handle the rest.<br> <br>
+              </p>
+              <h1 class="section-title">Business Hours</h1>
+              <p>
+                Monday - Friday | 9am to 5pm <br><br>
+                Saturday - Sunday | Closed
+              </p>
+            </div>
+
+          </div>
+        </div> 
+      </div>
+    <!-- ------------------ O U R - S T O R Y ------------------ -->
+
     <div id="our-story">
       <div class="container">
-        <div class="section"><p><span class="section-title">Our Story</span></p></div>
-          <div>
-            <p>
-            It started with a curiosity in what it would be like to have bee hives.  It turned out to be so much more than I ever expected.  Creation in one of its purest forms.
+        <h1 class="section-title">Our Story</h1>
+        <div class="row">
+          <!-- Text Column  -->
+          <div class="story-col-2">
+            <h1 class="section-title">The Beginning</h1>
+            <p>It started with a curiosity in what it would be like to have bee hives. It turned out to be so much more than I ever expected. Creation in one of its purest forms.<br> <br>
             </p>
           </div>
-
-          <div class="photo-gallery-title">
-            <p><span class="photo-gallery-text">Photo Gallery</span></p>
-          </div>
-
-          <div class="photo-gallery">
+          <!-- Image Column -->
+          <div class="story-col-1">
             <img src="img/sunset.webp" alt="">
-            <img src="img/bees.webp" alt="">
-            <img src="img/flower patch.webp" alt="">
-            <img src="img/honey jar.webp" alt="">
-            <img src="img/jars of honey.webp" alt="">
-            <img src="img/bbflower.webp" alt="">
-            <img src="img/sunflower plant.webp" alt="">
-            <img src="img/honey2.jpg" alt="">
-            <img src="img/nucs.webp" alt="">
-            <img src="img/honey and flower.webp" alt="">
-            <img src="img/flowers.webp" alt="">
           </div>
-
-          <!-- <div class="photo-gallery-button"><button>See All</button></div> -->
-
+        </div>
       </div>
     </div>
 
-    <!----------- Contact ----------->
+    <!-- ------------------ P H O T O - G A L L E R Y ------------------ -->
+    <!-- -------- Photo Gallery -------- -->
+    <div class="container">
+      <div id="photo-gallery" class="section-title">
+        <p><span class="photo-gallery-text">Photo Gallery</span></p>
+      </div>
+
+      <div class="photo-gallery">
+        <img src="img/sunset.webp" alt="">
+        <img src="img/bees.webp" alt="">
+        <img src="img/flower patch.webp" alt="">
+        <img src="img/honey jar.webp" alt="">
+        <img src="img/jars of honey.webp" alt="">
+        <img src="img/bbflower.webp" alt="">
+        <img src="img/sunflower plant.webp" alt="">
+        <img src="img/honey2.jpg" alt="">
+        <img src="img/nucs.webp" alt="">
+        <img src="img/honey and flower.webp" alt="">
+        <img src="img/flowers.webp" alt="">
+      </div>
+    </div>
+
+    <!-- ------------------ C O N T A C T ------------------ -->
+
     <div id="contact">
       <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="section-title">We love our customers!</h1> 
+            <h2>Let us know how things are going for you and your bees! <br>Send us any questions or requests for new products. </h2>
+            <!-- Email -->
+            <h3><i class="fa-solid fa-envelope"></i> Email:</h3>
+            <p><span>Conan | conan@beeblessedco.com</span></p>
+            <br> <br>
+            <!-- Phone -->
+            <h3><i class="fa-solid fa-phone"></i> Phone:</h3>
+            <p><span>Conan | 574-221-1885</span></p> <br> <br>
+            <!-- Adress -->
+            <h3><i class="fa-solid fa-location-dot"></i> Address:</h3>
+            <p><span>4653 North 375 East, Warsaw, Indiana 46582, United States</span></p> <br>
 
-        <div class='contact-wrapper'>
-          <div class='row'>
-            <div class='column'>
-              <div class='newsletter-column'>
-                <p><span>Subscribe</span><br> Sign up for news on specials, sales, and events!</p>
-                <form>
-                  <input class="newsletter-input" type="email" name="Email" placeholder="email@example.com" required>
-                  <button type="submit" class="newsletter-button">Sign Up</button>
-                </form>
-              </div>
-            </div>
-            <div class='column'>
-              <div class='message-column'>
-                <p><span>We love our customers!</span> <br> Let us know how things are going for you and your bees! Send us any questions or requests for new products.</p>
-                <form>
-                  <input type="text" name="name" placeholder="Your Name" required>
-                  <input type="email" name="email" placeholder="Your Email" required>
-                  <input type="tel" name="number" placeholder="Your Number" required>
-                  <textarea name="Message" rows="5" placeholder="Message? Questions? Concerns? Ideas?"></textarea>
-                  <div class="message-buttons"><button type="submit">Send Message</button> <p>or</p> <button><a href="tel:1234567890">Click to Call</a></button></div>
-                </form>
-              </div>
-            </div>
+            <!-- Socials -->
+            <!-- <div class="social-icons">
+            <h2>Follow us on FaceBook for news & updates on upcoming events!</h2> <br>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+            </div> -->
           </div>
+
+          <div class="contact-right"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.919661205518!2d-85.81810399999999!3d41.2235212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88169d9789026b49%3A0x28ca5706f961e5b9!2s200%2013th%20St%2C%20Winona%20Lake%2C%20IN%2046590!5e0!3m2!1sen!2sus!4v1707686890544!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
 
-        <div class="contact-footer">
-          <p>Address: 4653 N 375 E, Warsaw, IN 46582 | Phone: 574-387-3091 | E-mail: sales@beeblessed.com</p>
-        </div>
-        <div class="contact-footer2">
-          <p>Copy Right @ 2023 Bee Blessed - All Rights Reserved</p>
-        </div>
       </div>
-    </div>
+
+      <!-- page footer -->
+      <div class="page-footer">
+        <p>Copy Right @ 2024 Bee Blessed - All Rights Reserved</p>
+      </div>
+
+      </div>
+
+      </div>
+
+      <!-- Javascript-->
+
+<!-- Side Menu Functionality -->
+    <script>
+      var navmenu = document.getElementById("navmenu");
+
+      function openmenu() {
+        navmenu.style.right = "0";
+      }
+
+      function closemenu() {
+        navmenu.style.right = "-200px";
+      }
+    </script>
 
   </body>
 </html>

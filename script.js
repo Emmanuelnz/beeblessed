@@ -1,3 +1,4 @@
+// Email.js
 function sendMail() {
   let parms = {
     name : document.getElementById("name").value,
@@ -20,3 +21,4 @@ var navmenu = document.getElementById("navmenu");
       function closemenu() {
         navmenu.style.right = "-200px";
       }
+      
